@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/AboutView-DSdcD6VI.js","assets/AboutView-CSIvawM9.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/AboutView-DZIh2bN5.js","assets/AboutView-CSIvawM9.css"])))=>i.map(i=>d[i]);
 var gl=Object.defineProperty;var ml=(e,t,n)=>t in e?gl(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n;var re=(e,t,n)=>ml(e,typeof t!="symbol"?t+"":t,n);(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))s(r);new MutationObserver(r=>{for(const i of r)if(i.type==="childList")for(const o of i.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&s(o)}).observe(document,{childList:!0,subtree:!0});function n(r){const i={};return r.integrity&&(i.integrity=r.integrity),r.referrerPolicy&&(i.referrerPolicy=r.referrerPolicy),r.crossOrigin==="use-credentials"?i.credentials="include":r.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(r){if(r.ep)return;r.ep=!0;const i=n(r);fetch(r.href,i)}})();/**
 * @vue/shared v3.5.13
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -96,9 +96,6 @@ Please report this to https://github.com/markedjs/marked.`,t){const r="<p>An err
 | 05/16(五) | 春日部車站![Shin](/tokyo/14121d78-202d-491c-b4a9-4022adf88ee9.png)/ AEON LakeTown🛍 | 
 | 05/17(六) | 搭飛機回台灣✈ | 
 
-
-
-
 # 其他連結
 
 [晴空塔的寄物櫃使用狀況](<https://www.akilocker.biz/mobile/area.html?locationId=SOLAMACHI&lang=4>)
@@ -130,6 +127,10 @@ TR898
 
 ![](/tokyo/0724270b-abef-40af-925c-38cec6d48293.png)
 
+秋葉原車站地圖
+
+![](/tokyo/26a9e1d2-4d3c-47af-9d26-3cd5e859f1cb.png)
+
 看完祭典可以先回民宿休息 或是 逛秋葉原
  
 記得買水!!
@@ -147,6 +148,7 @@ ___
 牛排飯 Center Beef 橫濱關內本店
 
 橫濱市區是搭港未來線(刷卡)
+
 ![](/tokyo/c235fe4f-e3f1-425c-83c4-d0acb56d09e8.png)
 
 從橫濱搭車去東京車站逛逛地下街
@@ -157,6 +159,7 @@ ___
 
 ![](/tokyo/78ed0ff7-4a69-48d6-8efe-29c858466c8d.png)
 
+![](/tokyo/b2d7938d-db35-4bff-8a1e-f8d6adb44c83.png)
 ___
 
 **05/12 築地市場 / 台場 /日本橋**
@@ -196,4 +199,4 @@ ___
 
 **05/17 回台灣**
 ==
-`),s=Be(()=>J(n.value));return(r,i)=>(Fe(),Ue(Re,null,[i[0]||(i[0]=ae("div",{class:"Travel"},null,-1)),ae("div",{class:"markdown-content",innerHTML:s.value},null,8,rh)],64))}}),oh="/tokyo/ec61dc9e-a1f3-451d-9df4-ecb6302b2a20.png",lh={},ch={class:"travellist"};function ah(e,t){return Fe(),Ue("div",ch,t[0]||(t[0]=[ae("img",{src:oh},null,-1)]))}const uh=ls(lh,[["render",ah]]),fh=Zu({history:Ru(),routes:[{path:"/",name:"home",component:hf},{path:"/about",name:"about",component:()=>cf(()=>import("./AboutView-DSdcD6VI.js"),__vite__mapDeps([0,1]))},{path:"/happy",name:"happy",component:gf},{path:"/love",name:"love",component:wf},{path:"/travel",name:"travel",component:ih},{path:"/travellist",name:"travellist",component:uh}]}),br=Fa(rf);br.use(Ua());br.use(fh);br.mount("#app");export{ls as _,ae as a,Ue as c,Fe as o};
+`),s=Be(()=>J(n.value));return(r,i)=>(Fe(),Ue(Re,null,[i[0]||(i[0]=ae("div",{class:"Travel"},null,-1)),ae("div",{class:"markdown-content",innerHTML:s.value},null,8,rh)],64))}}),oh="/tokyo/ec61dc9e-a1f3-451d-9df4-ecb6302b2a20.png",lh={},ch={class:"travellist"};function ah(e,t){return Fe(),Ue("div",ch,t[0]||(t[0]=[ae("img",{src:oh},null,-1)]))}const uh=ls(lh,[["render",ah]]),fh=Zu({history:Ru(),routes:[{path:"/",name:"home",component:hf},{path:"/about",name:"about",component:()=>cf(()=>import("./AboutView-DZIh2bN5.js"),__vite__mapDeps([0,1]))},{path:"/happy",name:"happy",component:gf},{path:"/love",name:"love",component:wf},{path:"/travel",name:"travel",component:ih},{path:"/travellist",name:"travellist",component:uh}]}),br=Fa(rf);br.use(Ua());br.use(fh);br.mount("#app");export{ls as _,ae as a,Ue as c,Fe as o};
