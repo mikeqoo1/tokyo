@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/AboutView-hTs77Qeh.js","assets/AboutView-CSIvawM9.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/AboutView-Bk7X6lc4.js","assets/AboutView-CSIvawM9.css"])))=>i.map(i=>d[i]);
 var gl=Object.defineProperty;var ml=(e,t,n)=>t in e?gl(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n;var re=(e,t,n)=>ml(e,typeof t!="symbol"?t+"":t,n);(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))s(r);new MutationObserver(r=>{for(const i of r)if(i.type==="childList")for(const o of i.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&s(o)}).observe(document,{childList:!0,subtree:!0});function n(r){const i={};return r.integrity&&(i.integrity=r.integrity),r.referrerPolicy&&(i.referrerPolicy=r.referrerPolicy),r.crossOrigin==="use-credentials"?i.credentials="include":r.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(r){if(r.ep)return;r.ep=!0;const i=n(r);fetch(r.href,i)}})();/**
 * @vue/shared v3.5.13
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -103,6 +103,8 @@ Please report this to https://github.com/markedjs/marked.`,t){const r="<p>An err
 [車站的寄物櫃使用狀況](https://cloak.ecbo.io/zh-TW/jpn/city/tokyo/184)
 
 [快樂龍的地標](https://maps.app.goo.gl/wC7nH3pbngAqLYmV7)
+
+[入境日本網站] (https://services.digital.go.jp/zh-cmn-hant/visit-japan-web/)
 
 [出國前準備](/tokyo/#/travellist)
 
@@ -225,5 +227,7 @@ ___
 ___
 
 **05/17 回台灣**
+
+![東京車站地鐵圖](/tokyo/東京車站地鐵圖.png)
 ==
-`),s=Be(()=>J(n.value));return(r,i)=>(Fe(),Ue(Re,null,[i[0]||(i[0]=ae("div",{class:"Travel"},null,-1)),ae("div",{class:"markdown-content",innerHTML:s.value},null,8,rh)],64))}}),oh="/tokyo/ec61dc9e-a1f3-451d-9df4-ecb6302b2a20.png",lh={},ch={class:"travellist"};function ah(e,t){return Fe(),Ue("div",ch,t[0]||(t[0]=[ae("img",{src:oh},null,-1)]))}const uh=ls(lh,[["render",ah]]),fh=Zu({history:Ru(),routes:[{path:"/",name:"home",component:hf},{path:"/about",name:"about",component:()=>cf(()=>import("./AboutView-hTs77Qeh.js"),__vite__mapDeps([0,1]))},{path:"/happy",name:"happy",component:gf},{path:"/love",name:"love",component:kf},{path:"/travel",name:"travel",component:ih},{path:"/travellist",name:"travellist",component:uh}]}),br=Fa(rf);br.use(Ua());br.use(fh);br.mount("#app");export{ls as _,ae as a,Ue as c,Fe as o};
+`),s=Be(()=>J(n.value));return(r,i)=>(Fe(),Ue(Re,null,[i[0]||(i[0]=ae("div",{class:"Travel"},null,-1)),ae("div",{class:"markdown-content",innerHTML:s.value},null,8,rh)],64))}}),oh="/tokyo/ec61dc9e-a1f3-451d-9df4-ecb6302b2a20.png",lh={},ch={class:"travellist"};function ah(e,t){return Fe(),Ue("div",ch,t[0]||(t[0]=[ae("img",{src:oh},null,-1)]))}const uh=ls(lh,[["render",ah]]),fh=Zu({history:Ru(),routes:[{path:"/",name:"home",component:hf},{path:"/about",name:"about",component:()=>cf(()=>import("./AboutView-Bk7X6lc4.js"),__vite__mapDeps([0,1]))},{path:"/happy",name:"happy",component:gf},{path:"/love",name:"love",component:kf},{path:"/travel",name:"travel",component:ih},{path:"/travellist",name:"travellist",component:uh}]}),br=Fa(rf);br.use(Ua());br.use(fh);br.mount("#app");export{ls as _,ae as a,Ue as c,Fe as o};
