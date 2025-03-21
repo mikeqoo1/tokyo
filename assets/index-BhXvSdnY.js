@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/AboutView-3SkQaXWZ.js","assets/AboutView-CSIvawM9.css"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/AboutView-DNppVsKC.js","assets/AboutView-CSIvawM9.css"])))=>i.map(i=>d[i]);
 var gl=Object.defineProperty;var ml=(e,t,n)=>t in e?gl(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n;var re=(e,t,n)=>ml(e,typeof t!="symbol"?t+"":t,n);(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))s(r);new MutationObserver(r=>{for(const i of r)if(i.type==="childList")for(const o of i.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&s(o)}).observe(document,{childList:!0,subtree:!0});function n(r){const i={};return r.integrity&&(i.integrity=r.integrity),r.referrerPolicy&&(i.referrerPolicy=r.referrerPolicy),r.crossOrigin==="use-credentials"?i.credentials="include":r.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function s(r){if(r.ep)return;r.ep=!0;const i=n(r);fetch(r.href,i)}})();/**
 * @vue/shared v3.5.13
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -210,11 +210,28 @@ ___
 
 **05/15 淺草 /上野**
 ==
+![](/tokyo/d0afb84b-8271-49ab-a3bd-629229a44845.png)
+
+- 走1號公園口 
+
+![](/tokyo/50935dae-c4b1-4d2f-814a-70cf04174502.png)
+
+【停留】約3小時
+
+【時間】9:00到17:00 (最終入館時間:16:30) 休園:禮拜一、 年末年初(12/28~1/1) [閉館日查詢](https://www.kahaku.go.jp/event/ueno.php)
+
+【門票】常設展-個人參觀 : ¥630(5月18日-國際博物館日免費入場 :cry:)
+
+【設備】語音導覽租借 : ¥630
+
+「1比1的擬真動物」「恐龍化石🦕」「地球科學」
+
+![](/tokyo/63f67ac3-edbd-43f7-9202-ec23411efe81.png)
+
 ___
 
 **05/16 春日部 / OUTLET**
 ==
-
 * 春日部車站/ AEON LakeTown(有OUTLET) |
 
 ![](/tokyo/cf984788-bce1-4dc0-ab22-36100313224b.png)
@@ -229,6 +246,5 @@ ___
 ___
 
 **05/17 回台灣**
-
 ==
-`),s=Ne(()=>J(n.value));return(r,i)=>(Le(),je(Re,null,[i[0]||(i[0]=ce("div",{class:"Travel"},null,-1)),ce("div",{class:"markdown-content",innerHTML:s.value},null,8,rh)],64))}}),oh="/tokyo/ec61dc9e-a1f3-451d-9df4-ecb6302b2a20.png",lh={},ch={class:"travellist"};function ah(e,t){return Le(),je("div",ch,t[0]||(t[0]=[ce("img",{src:oh},null,-1)]))}const uh=Tn(lh,[["render",ah]]),fh="/tokyo/Tokyo_station_subway_map.png",hh={},ph={class:"tokyostationsubway"};function dh(e,t){return Le(),je("div",ph,t[0]||(t[0]=[ce("img",{src:fh},null,-1)]))}const gh=Tn(hh,[["render",dh]]),mh=Zu({history:Ru(),routes:[{path:"/",name:"home",component:hf},{path:"/about",name:"about",component:()=>cf(()=>import("./AboutView-3SkQaXWZ.js"),__vite__mapDeps([0,1]))},{path:"/happy",name:"happy",component:gf},{path:"/love",name:"love",component:kf},{path:"/travel",name:"travel",component:ih},{path:"/travellist",name:"travellist",component:uh},{path:"/tokyostationsubway",name:"tokyostationsubway",component:gh}]}),br=Fa(rf);br.use(Ua());br.use(mh);br.mount("#app");export{Tn as _,ce as a,je as c,Le as o};
+`),s=Ne(()=>J(n.value));return(r,i)=>(Le(),je(Re,null,[i[0]||(i[0]=ce("div",{class:"Travel"},null,-1)),ce("div",{class:"markdown-content",innerHTML:s.value},null,8,rh)],64))}}),oh="/tokyo/ec61dc9e-a1f3-451d-9df4-ecb6302b2a20.png",lh={},ch={class:"travellist"};function ah(e,t){return Le(),je("div",ch,t[0]||(t[0]=[ce("img",{src:oh},null,-1)]))}const uh=Tn(lh,[["render",ah]]),fh="/tokyo/Tokyo_station_subway_map.png",hh={},ph={class:"tokyostationsubway"};function dh(e,t){return Le(),je("div",ph,t[0]||(t[0]=[ce("img",{src:fh},null,-1)]))}const gh=Tn(hh,[["render",dh]]),mh=Zu({history:Ru(),routes:[{path:"/",name:"home",component:hf},{path:"/about",name:"about",component:()=>cf(()=>import("./AboutView-DNppVsKC.js"),__vite__mapDeps([0,1]))},{path:"/happy",name:"happy",component:gf},{path:"/love",name:"love",component:kf},{path:"/travel",name:"travel",component:ih},{path:"/travellist",name:"travellist",component:uh},{path:"/tokyostationsubway",name:"tokyostationsubway",component:gh}]}),br=Fa(rf);br.use(Ua());br.use(mh);br.mount("#app");export{Tn as _,ce as a,je as c,Le as o};
